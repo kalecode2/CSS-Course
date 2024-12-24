@@ -1,0 +1,109 @@
+* {
+    font-size: 1.5rem;
+    text-align: center;
+}
+a:link {
+    color: lightgray;
+}
+a:hover {
+    color: orange;
+}
+a:active {
+    color: blue;
+}
+a:visited {
+    color: deeppink;
+}
+button:link {
+    background-color: lightgray;
+}
+button:hover {
+    background-color: orange;
+}
+button:active {
+    background-color: blue;
+}
+
+li:hover {
+    background-color: cadetblue;
+}
+/*
+    li:not(hover) {
+        background-color: lightgray;
+    }
+*/
+li:nth-child(4) {
+    background-color: darkgreen;
+}
+#greetings p {
+    background-color: dodgerblue;
+    padding: 10px;
+    display: none;
+}
+#greetings:hover p {
+    background-color: dodgerblue;
+    padding: 10px;
+    display: block;
+}
+
+h1::first-letter {
+    font-size: 2rem;
+    font-style: italic;
+}
+p::first-line {
+    background-color: purple;
+}
+p::selection {
+    color: limegreen;
+    background-color: darkgray;
+}
+#fruits li::before {
+    content: "✅";
+}
+#apple::after {
+    content: "🍎";
+}
+#orange::after {
+    content: "🍊";
+}
+#banana::after {
+    content: "🍌";
+}
+#fruits li::marker {
+    content: "✅";
+    color: crimson;
+    font-size: 1.2rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

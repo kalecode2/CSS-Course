@@ -1,0 +1,60 @@
+* {
+    background-color: black;
+    justify-items: center;
+}
+#box {
+    width: 250px;
+    height: 250px;
+    background-color: deeppink;
+    color: antiquewhite;
+    font-size: 13em;
+    text-align: center;
+    animation-name: rotate;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-play-state: running;
+    animation-timing-function: ease-in-out;
+}
+img {
+    font-size: 13em;
+    text-align: center;
+    animation-name: slideLeft;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-play-state: running;
+    animation-timing-function: ease-in-out;
+}
+@keyframes slideLeft {
+    from{transform: translateX(100%);}
+}
+@keyframes slideRight {
+    to{transform: translateX(100%);}
+}
+@keyframes slideUp {
+    from{transform: translateY(300%);}
+}
+@keyframes slideDown {
+    to{transform: translateY(300%);}
+}
+@keyframes rotate {
+    50% {transform: rotateZ(360deg);}
+}
+@keyframes grow {
+    50% {transform: scale(2, 2);}
+}
+@keyframes shrink {
+    50% {transform: scale(0.5, 0.5);}
+}
+@keyframes fadeIn {
+    100%{opacity: 1;}
+}
+@keyframes colorChange {
+    0%{background-color: red}
+    30%{background-color: orange}
+    60%{background-color: greenyellow}
+}
+@keyframes glow {
+    50%{box-shadow: 0 0 50px deeppink}
+}

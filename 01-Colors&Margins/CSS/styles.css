@@ -1,0 +1,43 @@
+* {
+    margin: auto;
+    /*
+    it will appear at the
+    center of the page
+    */
+}
+body {
+    font-family: "JetBrains Mono", monospace;
+    background-color: lightgray;
+    font-size: 1.5rem;
+}
+.title {
+    border: 3px solid darkblue;
+    border-radius: 10px;
+}
+p{
+    border-bottom: 3px solid darkred;
+    border-top: 3px solid yellow;
+    border-left: 3px dotted orange;
+    border-right: 3px dotted green;
+    border-radius: 10px;
+}
+.even {
+    color: orangered;
+}
+.odd {
+    color: darkblue;
+}
+
+/*
+    Text shadow
+    and Box shadow
+*/
+.box-title {
+    text-shadow: 5px 3px  5px deepskyblue;
+}
+#box-1 {
+    width: 400px;
+    height: 100px;
+    background-color: whitesmoke;
+    box-shadow: 3px 3px  5px black;
+}
